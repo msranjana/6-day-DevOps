@@ -1,6 +1,12 @@
 # Day 3 – Introduction to AWS IAM & Basics of Docker
 
+## Overview
+
+On third day of Devops skill lab, we learned how to launch an EC2 instance on AWS, install Docker, clone a static website from GitHub, create a Dockerfile, build a Docker image, run it as a container, and expose it via port 80 to access the deployed web app through the instance's public IP.
+
+
 ---
+
 
 ## AWS IAM (Identity and Access Management)
 
