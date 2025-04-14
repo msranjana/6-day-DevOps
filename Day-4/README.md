@@ -51,13 +51,16 @@ docker exec -it webserver /bin/bash
 
 docker run -it --name sample ubuntu /bin/bash
 docker run -td --name web-app -p 3002:3000 muralisocial123/cart-page-test:1.0
+```
 
-# Exit container without stopping:
+## Exit container without stopping
+
 Ctrl + P + Q
 
-#  Docker Cheat Sheet & Example Walkthrough
+## Docker Cheat Sheet & Example Walkthrough
 
 ## 🔌 Docker Port Mapping (`-p` Flag)
+
 Maps container port to host machine.
 
 **Format:**
@@ -69,17 +72,18 @@ Means browser hits port **3002** on the host, which routes to port **3000** insi
 
 ---
 
+## Dockerfile Instructions
 
-##  Dockerfile Instructions
+### Build-Time Commands
 
-###  Build-Time Commands
 - `FROM`: Base image (required at top).
 - `COPY`: Copy files/folders from host to image.
 - `ADD`: Like COPY, but also supports URLs and archives.
 - `RUN`: Execute commands (e.g., install packages).
 - `.dockerignore`: Prevents unnecessary files from being added to image.
 
-###  Run-Time Commands
+### Run-Time Commands
+
 - `CMD`: Command to run container (can override at runtime).
 - `ENTRYPOINT`: Fixed entry script (harder to override).
 - `EXPOSE`: Declare app port inside container.
@@ -89,7 +93,7 @@ Means browser hits port **3002** on the host, which routes to port **3000** insi
 
 ---
 
-##  Steps to Write a Dockerfile
+## Steps to Write a Dockerfile
 
 1. Choose a base image (e.g., `node`, `nginx`, etc.)
 2. Set a working directory.
@@ -101,7 +105,7 @@ Means browser hits port **3002** on the host, which routes to port **3000** insi
 
 ---
 
-##  Docker Build & Push Example
+## Docker Build & Push Example
 
 ```bash
 git clone -b master https://github.com/msranjana/Dimple-CapsuleProject.git
@@ -129,3 +133,4 @@ Store and share Docker images easily with your Docker ID.
 ```bash
 docker login
 docker push msranjana/web-app-nodejs:1.0
+```
