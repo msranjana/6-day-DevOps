@@ -1,5 +1,11 @@
 # Day 5 - Introduction to Kubernetes
 
+## Overview
+
+Day 5 introduced Kubernetes as a powerful container orchestration tool that solves limitations of containers like lack of auto-scaling, load balancing, and self-healing. You learned about Kubernetes architecture, components (master and worker nodes), manifest files, and set up a Kubernetes cluster using EKS on AWS. The session also covered creating pods, understanding key YAML fields, and running basic Kubernetes commands.
+
+---
+
 ## Problems with Containers
 
 - **Containers will not support Auto Scaling**  
