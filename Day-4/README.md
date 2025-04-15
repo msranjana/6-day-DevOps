@@ -65,7 +65,7 @@ Ctrl + P + Q
 
 ## Docker Cheat Sheet & Example Walkthrough
 
-## 🔌 Docker Port Mapping (`-p` Flag)
+## Docker Port Mapping (`-p` Flag)
 
 Maps container port to host machine.
 
