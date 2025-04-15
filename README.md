@@ -1,4 +1,4 @@
-# 6-Day DevOps Training 
+# 6-Day DevOps SkillLab Training 
 
 This is **6-Day DevOps Training** repository!  
 It contains my learnings, notes, and tasks completed during a focused, hands-on training program covering various aspects of DevOps [BATCH D] .
