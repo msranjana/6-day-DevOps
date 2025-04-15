@@ -1,5 +1,11 @@
 # Day 4 - Docker Concepts and Commands
 
+## Overview
+
+Day 4 focused on understanding Docker and its ecosystem. We learned about containers, Dockerfiles, Docker images, and how to build, run, and manage containerized applications using essential Docker commands. The session also covered writing Dockerfiles, port mapping, and pushing images to Docker Hub for deployment.
+
+---
+
 ## Environments
 
 - **Development Environment**: Developers test basic functionality with minimal test cases.
