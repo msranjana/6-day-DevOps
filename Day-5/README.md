@@ -1,4 +1,4 @@
-# Day 5 - Kubernetes
+# Day 5 - Introduction to Kubernetes
 
 ## Problems with Containers
 
