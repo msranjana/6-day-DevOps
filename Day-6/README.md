@@ -1,5 +1,10 @@
-
 # Day 6 - Kubernetes : Namespaces, ReplicaSets, Deployments, Services, and Monitoring
+
+## Overview
+
+Day 6 covered how Kubernetes namespaces help isolate resources within a cluster and avoid using the default namespace in production. We learned how to manage pods, handle failures using controllers, ReplicaSets, and Deployments. The session also introduced Kubernetes services (ClusterIP, NodePort, LoadBalancer) to expose applications and touched on monitoring tools like Prometheus and Grafana.
+
+---
 
 ## Namespace
 
@@ -21,7 +26,7 @@ kubectl get all -n kube-system
 - **kube-public**: Resources in this namespace can be accessed by anyone.
 - **kube-system**: Contains default services/resources like metrics-server, CNI, CoreDNS created at cluster setup time.
 
-> ❗ When deploying a production application on the server, **never deploy in the default namespace**.
+>  When deploying a production application on the server, **never deploy in the default namespace**.
 
 ### Creating and Using a Custom Namespace
 
